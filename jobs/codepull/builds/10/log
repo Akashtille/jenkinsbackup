@@ -1,0 +1,20 @@
+Started by user [8mha:////4DYQTMLhrAamOOHaCoSuu+JTFb88KJj9xwgBCY85cnkuAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/dLi1CL9xOzE4gxDI0MApB0XjMMAAAA=[0makash121
+Running as SYSTEM
+Building remotely on [8mha:////4GGGGLAxERoHQWqzZ8CHXarpvBdmXoZ1S/4oY8M89XSRAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygOw0BADPgR8QAAAA=[0mnode1 in workspace /home/ec2-user/workspace/codepull
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ec2-user/workspace/codepull/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Akashtille/onlinebookstore.git # timeout=10
+Fetching upstream changes from https://github.com/Akashtille/onlinebookstore.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/Akashtille/onlinebookstore.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/J2EE^{commit} # timeout=10
+Checking out Revision 6a03c5875b0375d3eb8d5d91789ef2ff648557c4 (refs/remotes/origin/J2EE)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6a03c5875b0375d3eb8d5d91789ef2ff648557c4 # timeout=10
+Commit message: "update index.html"
+ > git rev-list --no-walk 6a03c5875b0375d3eb8d5d91789ef2ff648557c4 # timeout=10
+Triggering a new build of [8mha:////4KFuiwTJWY2100c3jkFFYufRU3k9tGT1gj8f8uKzDD4TAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JP2k0sycFH0AsN5xmMAAAAA=[0mbuild
+Finished: SUCCESS

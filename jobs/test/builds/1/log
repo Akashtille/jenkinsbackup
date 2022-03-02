@@ -1,0 +1,7 @@
+Started by user [8mha:////4DYQTMLhrAamOOHaCoSuu+JTFb88KJj9xwgBCY85cnkuAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/dLi1CL9xOzE4gxDI0MApB0XjMMAAAA=[0makash121
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/test
+[test] $ /bin/sh -xe /tmp/jenkins8648479708822749153.sh
++ echo 'test is passed'
+test is passed
+Finished: SUCCESS

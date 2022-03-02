@@ -1,0 +1,15 @@
+Started by upstream project "[8mha:////4KFuiwTJWY2100c3jkFFYufRU3k9tGT1gj8f8uKzDD4TAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JP2k0sycFH0AsN5xmMAAAAA=[0mbuild" build number [8mha:////4JAQUJYVukGJlYuIevN74engGYwidMMoFioNeX1AX+gPAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwk/aTSzJwUfRMAtZMNkcEAAAA=[0m4
+originally caused by:
+ Started by upstream project "[8mha:////4D7lB9PQ1n/kTm7ekFak6QrPFwZEpQcs9s4tuUHWy7q8AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP1koBMLSnNy9AFbA9ZswwAAAA==[0mcodepull" build number [8mha:////4KdaO7hD/3lmSrpoN3AjzAWSgVRgJEzg0SKBumiZTS45AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBn79rPwk/WSgEwtKc3L0LQAgBf52xAAAAA==[0m8
+ originally caused by:
+  Started by user [8mha:////4DYQTMLhrAamOOHaCoSuu+JTFb88KJj9xwgBCY85cnkuAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/dLi1CL9xOzE4gxDI0MApB0XjMMAAAA=[0makash121
+Running as SYSTEM
+Building remotely on [8mha:////4GGGGLAxERoHQWqzZ8CHXarpvBdmXoZ1S/4oY8M89XSRAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygOw0BADPgR8QAAAA=[0mnode1 in workspace /home/ec2-user/workspace/deployment
+[deployment] $ /bin/sh -xe /tmp/jenkins9092652928902726339.sh
++ cd /opt/tomcat/apache-tomcat-8.5.75/bin
++ sh shutdown.sh
++ cd /home/ec2-user/workspace/onlinebookstore/target
++ mv onlinebookstore-0.0.1-SNAPSHOT.war /opt/tomcat/apache-tomcat-8.5.75/webapps
+mv: cannot stat 'onlinebookstore-0.0.1-SNAPSHOT.war': No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

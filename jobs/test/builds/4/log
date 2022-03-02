@@ -1,0 +1,13 @@
+Started by upstream project "[8mha:////4EpDFqi3zYWOCXl3eObyRqudI9YW3mXXIpxZc7v5Y1nxAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JP2U1IKc/Mrc1LwSfQBNHbj6xQAAAA==[0mdeployment" build number [8mha:////4NStDHp+PgwJpLEOyB1r6t0cIQf1WEFWU9N+h0UxuaW7AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBkH9rPwk/ZTUgpz8ytzUvBJ9CwBX7ylDxgAAAA==[0m8
+originally caused by:
+ Started by upstream project "[8mha:////4KFuiwTJWY2100c3jkFFYufRU3k9tGT1gj8f8uKzDD4TAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JP2k0sycFH0AsN5xmMAAAAA=[0mbuild" build number [8mha:////4KEGS57HS1JVZO9lcxOCHgKc+v03f+6C6/L65drJiGyaAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwk/aTSzJwUfXMAD8IECMEAAAA=[0m7
+ originally caused by:
+  Started by upstream project "[8mha:////4D7lB9PQ1n/kTm7ekFak6QrPFwZEpQcs9s4tuUHWy7q8AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP1koBMLSnNy9AFbA9ZswwAAAA==[0mcodepull" build number [8mha:////4NxKTsSt/B9v4dceoU+vkX0TMKf9iB5om3NfkrS8JXI9AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYB/az8JP1koBMLSnNy9A0NAVFtfBfFAAAA[0m11
+  originally caused by:
+   Started by an SCM change
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/test
+[test] $ /bin/sh -xe /tmp/jenkins3358604453080626041.sh
++ echo 'test is passed'
+test is passed
+Finished: SUCCESS

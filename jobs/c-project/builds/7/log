@@ -1,0 +1,74 @@
+Started by user [8mha:////4DYQTMLhrAamOOHaCoSuu+JTFb88KJj9xwgBCY85cnkuAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/dLi1CL9xOzE4gxDI0MApB0XjMMAAAA=[0makash121
+Running as SYSTEM
+Building remotely on [8mha:////4GGGGLAxERoHQWqzZ8CHXarpvBdmXoZ1S/4oY8M89XSRAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygOw0BADPgR8QAAAA=[0mnode1 in workspace /home/ec2-user/workspace/c-project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ec2-user/workspace/c-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Akashtille/c-project.git # timeout=10
+Fetching upstream changes from https://github.com/Akashtille/c-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/Akashtille/c-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision e1b4a5f3ac02a87b1b250d553fd2954ad461c585 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e1b4a5f3ac02a87b1b250d553fd2954ad461c585 # timeout=10
+Commit message: "error has been removed"
+ > git rev-list --no-walk e1b4a5f3ac02a87b1b250d553fd2954ad461c585 # timeout=10
+[c-project] $ /bin/sh -xe /tmp/jenkins2385758974026026826.sh
++ cd /home/ec2-user/c-project/
++ make
+gcc -c main.c
+main.c:2:2: warning: return type defaults to ‘int’ [-Wimplicit-int]
+  main() {
+  ^~~~
+main.c: In function ‘main’:
+main.c:3:2: warning: implicit declaration of function ‘biggest3’ [-Wimplicit-function-declaration]
+  biggest3();
+  ^~~~~~~~
+main.c:4:2: warning: implicit declaration of function ‘factorial’ [-Wimplicit-function-declaration]
+  factorial();
+  ^~~~~~~~~
+main.c:5:2: warning: implicit declaration of function ‘reverse’ [-Wimplicit-function-declaration]
+  reverse();
+  ^~~~~~~
+main.c:6:2: warning: implicit declaration of function ‘pallindrome’ [-Wimplicit-function-declaration]
+  pallindrome();
+  ^~~~~~~~~~~
+main.c:7:2: warning: implicit declaration of function ‘biggest2’ [-Wimplicit-function-declaration]
+  biggest2();
+  ^~~~~~~~
+main.c:8:2: warning: implicit declaration of function ‘fibanaci’ [-Wimplicit-function-declaration]
+  fibanaci();
+  ^~~~~~~~
+main.c:9:2: warning: implicit declaration of function ‘sort’ [-Wimplicit-function-declaration]
+  sort();
+  ^~~~
+main.c:10:2: warning: implicit declaration of function ‘sum’ [-Wimplicit-function-declaration]
+  sum();
+  ^~~
+gcc -c big3.c
+gcc -c fact.c
+gcc -c rev.c
+gcc -c big2.c
+gcc -c fib.c
+fib.c: In function ‘fibanaci’:
+fib.c:15:10: warning: ‘return’ with a value, in function returning void
+   return 0;
+          ^
+fib.c:2:6: note: declared here
+ void fibanaci()
+      ^~~~~~~~
+gcc -c pal.c
+gcc -c sort.c
+gcc -c sum.c
+sum.c: In function ‘sum’:
+sum.c:13:12: warning: ‘return’ with a value, in function returning void
+     return 0;
+            ^
+sum.c:2:6: note: declared here
+ void sum() {
+      ^~~
+gcc -o ABC.exe main.o big3.o fact.o rev.o big2.o fib.o pal.o sort.o sum.o
+Finished: SUCCESS
